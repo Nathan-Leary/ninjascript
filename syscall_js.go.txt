@@ -1,0 +1,38 @@
+package ninjascript
+
+import (
+	syscall_js "syscall/js"
+)
+
+func init() {
+	if _, ok := Api["syscall/js"]; !ok {
+		Api["syscall/js"] = map[string]interface{}{}
+	}
+	Api["syscall/js"]["CopyBytesToGo"] = syscall_js.CopyBytesToGo
+	Api["syscall/js"]["CopyBytesToJS"] = syscall_js.CopyBytesToJS
+	Api["syscall/js"]["Error"] = syscall_js.Error{}
+	Api["syscall/js"]["Func"] = syscall_js.Func{}
+	Api["syscall/js"]["FuncOf"] = syscall_js.FuncOf
+	Api["syscall/js"]["TypeUndefined"] = syscall_js.TypeUndefined
+	Api["syscall/js"]["TypeNull"] = syscall_js.TypeNull
+	Api["syscall/js"]["TypeBoolean"] = syscall_js.TypeBoolean
+	Api["syscall/js"]["TypeNumber"] = syscall_js.TypeNumber
+	Api["syscall/js"]["TypeString"] = syscall_js.TypeString
+	Api["syscall/js"]["TypeSymbol"] = syscall_js.TypeSymbol
+	Api["syscall/js"]["TypeObject"] = syscall_js.TypeObject
+	Api["syscall/js"]["TypeFunction"] = syscall_js.TypeFunction
+	Api["syscall/js"]["Value"] = syscall_js.Value{}
+	Api["syscall/js"]["Global"] = syscall_js.Global
+	Api["syscall/js"]["Null"] = syscall_js.Null
+	Api["syscall/js"]["Undefined"] = syscall_js.Undefined
+	Api["syscall/js"]["ValueOf"] = syscall_js.ValueOf
+	Api["syscall/js"]["ValueError"] = syscall_js.ValueError{}
+	Api["syscall/js"]["CopyBytesToGo"] = syscall_js.CopyBytesToGo
+	Api["syscall/js"]["CopyBytesToJS"] = syscall_js.CopyBytesToJS
+	Api["syscall/js"]["FuncOf"] = syscall_js.FuncOf
+	Api["syscall/js"]["Global"] = syscall_js.Global
+	Api["syscall/js"]["Null"] = syscall_js.Null
+	Api["syscall/js"]["Undefined"] = syscall_js.Undefined
+	Api["syscall/js"]["ValueOf"] = syscall_js.ValueOf
+
+}

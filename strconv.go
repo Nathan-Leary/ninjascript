@@ -1,0 +1,80 @@
+package ninjascript
+import (
+strconv "strconv"
+)
+func init() {if _, ok := Api["strconv"]; !ok {
+   Api["strconv"] = map[string]interface{}{}
+}
+Api["strconv"]["ErrRange"] = strconv.ErrRange
+Api["strconv"]["ErrSyntax"] = strconv.ErrSyntax
+Api["strconv"]["AppendBool"] = strconv.AppendBool
+Api["strconv"]["AppendFloat"] = strconv.AppendFloat
+Api["strconv"]["AppendInt"] = strconv.AppendInt
+Api["strconv"]["AppendQuote"] = strconv.AppendQuote
+Api["strconv"]["AppendQuoteRune"] = strconv.AppendQuoteRune
+Api["strconv"]["AppendQuoteRuneToASCII"] = strconv.AppendQuoteRuneToASCII
+Api["strconv"]["AppendQuoteRuneToGraphic"] = strconv.AppendQuoteRuneToGraphic
+Api["strconv"]["AppendQuoteToASCII"] = strconv.AppendQuoteToASCII
+Api["strconv"]["AppendQuoteToGraphic"] = strconv.AppendQuoteToGraphic
+Api["strconv"]["AppendUint"] = strconv.AppendUint
+Api["strconv"]["Atoi"] = strconv.Atoi
+Api["strconv"]["CanBackquote"] = strconv.CanBackquote
+Api["strconv"]["FormatBool"] = strconv.FormatBool
+Api["strconv"]["FormatComplex"] = strconv.FormatComplex
+Api["strconv"]["FormatFloat"] = strconv.FormatFloat
+Api["strconv"]["FormatInt"] = strconv.FormatInt
+Api["strconv"]["FormatUint"] = strconv.FormatUint
+Api["strconv"]["IsGraphic"] = strconv.IsGraphic
+Api["strconv"]["IsPrint"] = strconv.IsPrint
+Api["strconv"]["Itoa"] = strconv.Itoa
+Api["strconv"]["ParseBool"] = strconv.ParseBool
+Api["strconv"]["ParseComplex"] = strconv.ParseComplex
+Api["strconv"]["ParseFloat"] = strconv.ParseFloat
+Api["strconv"]["ParseInt"] = strconv.ParseInt
+Api["strconv"]["ParseUint"] = strconv.ParseUint
+Api["strconv"]["Quote"] = strconv.Quote
+Api["strconv"]["QuoteRune"] = strconv.QuoteRune
+Api["strconv"]["QuoteRuneToASCII"] = strconv.QuoteRuneToASCII
+Api["strconv"]["QuoteRuneToGraphic"] = strconv.QuoteRuneToGraphic
+Api["strconv"]["QuoteToASCII"] = strconv.QuoteToASCII
+Api["strconv"]["QuoteToGraphic"] = strconv.QuoteToGraphic
+Api["strconv"]["QuotedPrefix"] = strconv.QuotedPrefix
+Api["strconv"]["Unquote"] = strconv.Unquote
+Api["strconv"]["UnquoteChar"] = strconv.UnquoteChar
+Api["strconv"]["NumError"] = strconv.NumError{}
+Api["strconv"]["AppendBool"] = strconv.AppendBool
+Api["strconv"]["AppendFloat"] = strconv.AppendFloat
+Api["strconv"]["AppendInt"] = strconv.AppendInt
+Api["strconv"]["AppendQuote"] = strconv.AppendQuote
+Api["strconv"]["AppendQuoteRune"] = strconv.AppendQuoteRune
+Api["strconv"]["AppendQuoteRuneToASCII"] = strconv.AppendQuoteRuneToASCII
+Api["strconv"]["AppendQuoteRuneToGraphic"] = strconv.AppendQuoteRuneToGraphic
+Api["strconv"]["AppendQuoteToASCII"] = strconv.AppendQuoteToASCII
+Api["strconv"]["AppendQuoteToGraphic"] = strconv.AppendQuoteToGraphic
+Api["strconv"]["AppendUint"] = strconv.AppendUint
+Api["strconv"]["Atoi"] = strconv.Atoi
+Api["strconv"]["CanBackquote"] = strconv.CanBackquote
+Api["strconv"]["FormatBool"] = strconv.FormatBool
+Api["strconv"]["FormatComplex"] = strconv.FormatComplex
+Api["strconv"]["FormatFloat"] = strconv.FormatFloat
+Api["strconv"]["FormatInt"] = strconv.FormatInt
+Api["strconv"]["FormatUint"] = strconv.FormatUint
+Api["strconv"]["IsGraphic"] = strconv.IsGraphic
+Api["strconv"]["IsPrint"] = strconv.IsPrint
+Api["strconv"]["Itoa"] = strconv.Itoa
+Api["strconv"]["ParseBool"] = strconv.ParseBool
+Api["strconv"]["ParseComplex"] = strconv.ParseComplex
+Api["strconv"]["ParseFloat"] = strconv.ParseFloat
+Api["strconv"]["ParseInt"] = strconv.ParseInt
+Api["strconv"]["ParseUint"] = strconv.ParseUint
+Api["strconv"]["Quote"] = strconv.Quote
+Api["strconv"]["QuoteRune"] = strconv.QuoteRune
+Api["strconv"]["QuoteRuneToASCII"] = strconv.QuoteRuneToASCII
+Api["strconv"]["QuoteRuneToGraphic"] = strconv.QuoteRuneToGraphic
+Api["strconv"]["QuoteToASCII"] = strconv.QuoteToASCII
+Api["strconv"]["QuoteToGraphic"] = strconv.QuoteToGraphic
+Api["strconv"]["QuotedPrefix"] = strconv.QuotedPrefix
+Api["strconv"]["Unquote"] = strconv.Unquote
+Api["strconv"]["UnquoteChar"] = strconv.UnquoteChar
+
+}
