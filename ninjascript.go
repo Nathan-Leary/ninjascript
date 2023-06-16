@@ -20,7 +20,7 @@ var Vm *goja.Runtime
 
 var uniqueMap = map[string]bool{}
 
-func Load() *goja.Runtime {
+func New() *goja.Runtime {
 
 	Vm = goja.New()
 
