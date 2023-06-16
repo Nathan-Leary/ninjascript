@@ -3,7 +3,7 @@
 Goja with almost all of the Golang Api installed.
 
 example code:
-
+```
 package main
 
 import (
@@ -16,5 +16,5 @@ func main() {
 }
 
 // outputs >> 123
-
+```
 more info coming...
