@@ -2,49 +2,31 @@ package goquery
 import (
 github_com_PuerkitoBio_goquery "github.com/PuerkitoBio/goquery"
 )
-func Load(Interfaces ...interface{}) {
-	if len(Interfaces) > 5 {
-		if i, ok := Interfaces[0].(map[string]map[string]interface{}) {
-			 DefaultGojaInterfaces: = i
-			 if i, ok := Interfaces[1].(*goja.Runtime) {
-				vm := i
-				if i, ok := Interfaces[2].(*quickjs.Context) {
-					ctx := i	
-					if i, ok := Interfaces[3].(func(*quickjs.Context, interface{}) (quickjs.Value, string)) {
-						ConvertInterfaceToQuickJS := i
-						if i, ok := Interfaces[4].(func(interface{}, ...interface{}) interface{}) {
-							ExecuteFunction := i
-if _, ok := DefaultGojaInterfaces["goquery"]; !ok {
-   DefaultGojaInterfaces["goquery"] = map[string]interface{}{}
+func Load() {
+if _, ok := DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]; !ok {
+   DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"] = map[string]interface{}{}
 }
-DefaultGojaInterfaces["goquery"]["ToEnd"] = github_com_PuerkitoBio_goquery.ToEnd
-DefaultGojaInterfaces["goquery"]["NodeName"] = github_com_PuerkitoBio_goquery.NodeName
-DefaultGojaInterfaces["goquery"]["OuterHtml"] = github_com_PuerkitoBio_goquery.OuterHtml
-DefaultGojaInterfaces["goquery"]["Render"] = github_com_PuerkitoBio_goquery.Render
-DefaultGojaInterfaces["goquery"]["Document"] = github_com_PuerkitoBio_goquery.Document{}
-DefaultGojaInterfaces["goquery"]["CloneDocument"] = github_com_PuerkitoBio_goquery.CloneDocument
-DefaultGojaInterfaces["goquery"]["NewDocument"] = github_com_PuerkitoBio_goquery.NewDocument
-DefaultGojaInterfaces["goquery"]["NewDocumentFromNode"] = github_com_PuerkitoBio_goquery.NewDocumentFromNode
-DefaultGojaInterfaces["goquery"]["NewDocumentFromReader"] = github_com_PuerkitoBio_goquery.NewDocumentFromReader
-DefaultGojaInterfaces["goquery"]["NewDocumentFromResponse"] = github_com_PuerkitoBio_goquery.NewDocumentFromResponse
-DefaultGojaInterfaces["goquery"]["Single"] = github_com_PuerkitoBio_goquery.Single
-DefaultGojaInterfaces["goquery"]["SingleMatcher"] = github_com_PuerkitoBio_goquery.SingleMatcher
-DefaultGojaInterfaces["goquery"]["Selection"] = github_com_PuerkitoBio_goquery.Selection{}
-DefaultGojaInterfaces["goquery"]["NodeName"] = github_com_PuerkitoBio_goquery.NodeName
-DefaultGojaInterfaces["goquery"]["OuterHtml"] = github_com_PuerkitoBio_goquery.OuterHtml
-DefaultGojaInterfaces["goquery"]["Render"] = github_com_PuerkitoBio_goquery.Render
-DefaultGojaInterfaces["goquery"]["CloneDocument"] = github_com_PuerkitoBio_goquery.CloneDocument
-DefaultGojaInterfaces["goquery"]["NewDocument"] = github_com_PuerkitoBio_goquery.NewDocument
-DefaultGojaInterfaces["goquery"]["NewDocumentFromNode"] = github_com_PuerkitoBio_goquery.NewDocumentFromNode
-DefaultGojaInterfaces["goquery"]["NewDocumentFromReader"] = github_com_PuerkitoBio_goquery.NewDocumentFromReader
-DefaultGojaInterfaces["goquery"]["NewDocumentFromResponse"] = github_com_PuerkitoBio_goquery.NewDocumentFromResponse
-DefaultGojaInterfaces["goquery"]["Single"] = github_com_PuerkitoBio_goquery.Single
-DefaultGojaInterfaces["goquery"]["SingleMatcher"] = github_com_PuerkitoBio_goquery.SingleMatcher
-
-			 			}	
-			 		}
-			 	}
-			 }
-		}
-	}
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["ToEnd"] = github_com_PuerkitoBio_goquery.ToEnd
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["NodeName"] = github_com_PuerkitoBio_goquery.NodeName
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["OuterHtml"] = github_com_PuerkitoBio_goquery.OuterHtml
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["Render"] = github_com_PuerkitoBio_goquery.Render
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["Document"] = github_com_PuerkitoBio_goquery.Document{}
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["CloneDocument"] = github_com_PuerkitoBio_goquery.CloneDocument
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["NewDocument"] = github_com_PuerkitoBio_goquery.NewDocument
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["NewDocumentFromNode"] = github_com_PuerkitoBio_goquery.NewDocumentFromNode
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["NewDocumentFromReader"] = github_com_PuerkitoBio_goquery.NewDocumentFromReader
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["NewDocumentFromResponse"] = github_com_PuerkitoBio_goquery.NewDocumentFromResponse
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["Single"] = github_com_PuerkitoBio_goquery.Single
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["SingleMatcher"] = github_com_PuerkitoBio_goquery.SingleMatcher
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["Selection"] = github_com_PuerkitoBio_goquery.Selection{}
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["NodeName"] = github_com_PuerkitoBio_goquery.NodeName
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["OuterHtml"] = github_com_PuerkitoBio_goquery.OuterHtml
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["Render"] = github_com_PuerkitoBio_goquery.Render
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["CloneDocument"] = github_com_PuerkitoBio_goquery.CloneDocument
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["NewDocument"] = github_com_PuerkitoBio_goquery.NewDocument
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["NewDocumentFromNode"] = github_com_PuerkitoBio_goquery.NewDocumentFromNode
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["NewDocumentFromReader"] = github_com_PuerkitoBio_goquery.NewDocumentFromReader
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["NewDocumentFromResponse"] = github_com_PuerkitoBio_goquery.NewDocumentFromResponse
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["Single"] = github_com_PuerkitoBio_goquery.Single
+DefaultGojaInterfaces["github.com/PuerkitoBio/goquery"]["SingleMatcher"] = github_com_PuerkitoBio_goquery.SingleMatcher
 }
