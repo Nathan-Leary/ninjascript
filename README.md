@@ -2,7 +2,7 @@
 
 Goja with almost all of the Golang Api installed.
 
-exanple code:
+example code:
 
 package main
 
