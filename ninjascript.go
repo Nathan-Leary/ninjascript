@@ -5,10 +5,11 @@ import(
 )
 
 var Api = map[string]map[string]interface{}{}
+var Vm *goja.Runtime
 
 func New() *goja.Runtime {
-  var vm *goja.Runtime
-  return goja.New()
+  Vm = goja.New()
+  return Vm
 }
 
 func Install() {
