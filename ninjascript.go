@@ -2,9 +2,6 @@ package ninjascript
 
 import (
 	"fmt"
-	"io/ioutil"
-	"os"
-	"path/filepath"
 	"strings"
 
 	"github.com/dop251/goja"
