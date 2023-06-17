@@ -30,12 +30,12 @@ func init() {
 	Api["math"]["MinInt16"] = math.MinInt16
 	Api["math"]["MaxInt32"] = math.MaxInt32
 	Api["math"]["MinInt32"] = math.MinInt32
-	Api["math"]["MaxInt64"] = math.MaxInt64
-	Api["math"]["MinInt64"] = math.MinInt64
+	// Api["math"]["MaxInt64"] = math.MaxInt64
+	// Api["math"]["MinInt64"] = math.MinInt64
 	// Api["math"]["MaxUint"] = math.MaxUint
 	Api["math"]["MaxUint8"] = math.MaxUint8
 	Api["math"]["MaxUint16"] = math.MaxUint16
-	Api["math"]["MaxUint32"] = math.MaxUint32
+	// Api["math"]["MaxUint32"] = math.MaxUint32
 	// Api["math"]["MaxUint64"] = math.MaxUint64
 	Api["math"]["Abs"] = math.Abs
 	Api["math"]["Acos"] = math.Acos
