@@ -34,7 +34,7 @@ func init() {if _, ok := Api["log/syslog"]; !ok {
 // Api["log/syslog"]["LOG_LOCAL5"] = log_syslog.LOG_LOCAL5
 // Api["log/syslog"]["LOG_LOCAL6"] = log_syslog.LOG_LOCAL6
 // Api["log/syslog"]["LOG_LOCAL7"] = log_syslog.LOG_LOCAL7
-Api["log/syslog"]["Writer"] = log_syslog.Writer{}
-Api["log/syslog"]["Dial"] = log_syslog.Dial
-Api["log/syslog"]["New"] = log_syslog.New
+// Api["log/syslog"]["Writer"] = log_syslog.Writer{}
+// Api["log/syslog"]["Dial"] = log_syslog.Dial
+// Api["log/syslog"]["New"] = log_syslog.New
 }
