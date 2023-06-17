@@ -1,5 +1,5 @@
 # ninjascript
-
+ 
 Goja (Javascript ECMA5 Engine) with almost all of the Golang Api installed.
 
 example code:
