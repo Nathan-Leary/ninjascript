@@ -11,7 +11,7 @@ func init() {
 	// Api["math/big"]["NewT"] = math_big.NewT
 	Api["math/big"]["MaxExp"] = math_big.MaxExp
 	Api["math/big"]["MinExp"] = math_big.MinExp
-	Api["math/big"]["MaxPrec"] = math_big.MaxPrec
+	// Api["math/big"]["MaxPrec"] = math_big.MaxPrec
 	Api["math/big"]["Jacobi"] = math_big.Jacobi
 	Api["math/big"]["Below"] = math_big.Below
 	Api["math/big"]["Exact"] = math_big.Exact
