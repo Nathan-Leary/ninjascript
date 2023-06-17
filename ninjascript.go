@@ -17,6 +17,12 @@ var Vm *goja.Runtime
 
 var uniqueMap = map[string]bool{}
 
+func Import(ImportedApi map[string]map[string]interface{}) {
+	for k, v := range ImportedApi {
+		Api[k] = v
+	}
+}
+
 func New() *goja.Runtime {
 
 	Vm = goja.New()
